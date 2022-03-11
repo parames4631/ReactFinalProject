@@ -34,9 +34,13 @@ const AboutPage = () => {
             <Grid item xs={5} marginBottom={2}>
               <div>
             <p>Name : Parames Sripeth</p>
+            <br></br>
             <p>NickName : Dong</p>
+            <br></br>
             <p>Dath of birth : 10 MAY 2000</p>
+            <br></br>
             <p>University : Thai-Nichi Institute of Technology</p>
+            <br></br>
             <p>Faculty : Information Technology</p>
             </div>
             </Grid>

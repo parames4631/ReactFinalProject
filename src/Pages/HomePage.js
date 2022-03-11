@@ -10,12 +10,12 @@ const HomePage = () => {
         <div className='typography'>
             <h1>
                 Hello I'm  <span>Parames Sripeth</span> </h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-                <div className='icons'>
+                <p>The purpose of our lives is to be happy. </p>
+                {/* <div className='icons'>
                     <div className='icon i-facebook'><FacebookIcon/></div>
                     <div className='icon i-gitHubIcon'><GitHubIcon/></div>
                     <div className='icon i-youtube'><YoutubeIcon/></div>
-                </div>
+                </div> */}
             
         </div>
     </HomePageStyled>

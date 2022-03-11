@@ -21,20 +21,20 @@ const ResumePage = () => {
     <ResumeStyle>
       <MainLayout>
         <InnerLayout>
-          <Title title={'My Skils'} span={'My Skils'} />
+          <Title title={'My Skils'} span={'My Skils'}   />
         </InnerLayout>
         <p>React Js</p>
-        <ProgressBar completed={50} customLabel="Basic" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
+        <ProgressBar completed={50} animateOnRender customLabel="Basic" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
         <p>CSS</p>
-        <ProgressBar completed={50} customLabel="Basic" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
+        <ProgressBar completed={50} animateOnRender customLabel="Basic" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
         <p>WordPress</p>
-        <ProgressBar completed={50} customLabel="Basic" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
+        <ProgressBar completed={50} animateOnRender customLabel="Basic" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
         <p>SQL</p>
-        <ProgressBar completed={60} customLabel="Basic" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
+        <ProgressBar completed={60} animateOnRender customLabel="Basic" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
         <p>scripting</p>
-        <ProgressBar completed={70} customLabel="intermediate" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
+        <ProgressBar completed={70} animateOnRender customLabel="intermediate" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
         <p>Acting</p>
-        <ProgressBar completed={70} customLabel="intermediate" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
+        <ProgressBar completed={70} animateOnRender customLabel="intermediate" className='Progress' baseBgColor="#9897a9" bgColor="#2832c2" />
         <InnerLayout>
           <Title title={'Software Skils'} span={'Software Skils'} />
         </InnerLayout>

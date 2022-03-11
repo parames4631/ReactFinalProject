@@ -4,13 +4,16 @@ import {BrowserRouter as Router , Switch as Switching, Route} from 'react-router
 import HomePageStyled from "./Pages/HomePage"
 import AboutPage from "./Pages/AboutPage";
 import Switch from "@material-ui/core/Switch";
-
+import rootReducer from "./redux/reducers";
+import {createStore} from "redux";
 import Brightness4Icon from "@material-ui/icons/Brightness4";
 import {useState, useEffect} from 'react'
 import ResumePage from "./Pages/ResumePage";
 import ContactPage from "./Pages/ContactPage";
-
-
+import ProductPage from "./Pages/ProductPage";
+import { Provider } from "react-redux";
+import Cart from "./Pages/Cart"
+const store = createStore(rootReducer)
 function App() {
 
   const [theme,setTheme] = useState('dark-theme')
@@ -33,6 +36,7 @@ function App() {
   },[theme])
 
   return (
+    <Provider store={store}>
     <div className="App">
       <Sidebar></Sidebar>
       <MainContentStyled className="main-content">
@@ -64,9 +68,16 @@ function App() {
              <Route path="/contact" exact>
              <ContactPage/>
              </Route>
+             <Route path="/product" exact>
+             <ProductPage/>
+             </Route>
+             <Route path="/cart" exact>
+             <Cart/>
+             </Route>
          </Switching>
       </MainContentStyled>
     </div>
+    </Provider>
   );
 }
 
